@@ -32,7 +32,7 @@ signal wire and input for the Arduino.
 
 ## Arduino Code
 
-The [temp_sensor.ino](temp_sensor.ino) sketch was uploaded on the Arduino using the Arduino IDE
+The [temp_sensor.ino](temp_sensor.ino) sketch was uploaded on the Arduino using the Arduino IDE.
 
 ## MATLAB Code
 
