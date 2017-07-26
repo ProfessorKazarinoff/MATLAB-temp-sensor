@@ -30,6 +30,14 @@ the breadboard. The red, white and black jumpers connect the breadboard to the A
 the following ports, 3.3V, Digital-7 and GND (respectively). The resistor is placed between the
 signal wire and input for the Arduino.
 
+## Arduino Code
+
+The [temp_sensor.ino](temp_sensor.ino) sketch was uploaded on the Arduino using the Arduino IDE
+
+## MATLAB Code
+
+The [temp_sensor.m](temp_sensor.m) script was run in MATLAB.
+
 ## Results
 
 ![Alt-text](/doc/results.png "Alt-title")
