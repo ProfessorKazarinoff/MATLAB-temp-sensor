@@ -30,6 +30,12 @@ the breadboard. The red, white and black jumpers connect the breadboard to the A
 the following ports, 3.3V, Digital-7 and GND (respectively). The resistor is placed between the
 signal wire and input for the Arduino.
 
+## Results
+
+![Alt-text](/doc/results.png "Alt-title")
+
+The plot above is a sample output of our code using the temperature sensor and Arduino
+board. Time is on the x-axis while temperature in degrees Fahrenheit is on the y-axis.
 
 ## Future Work
 This is a great starting point for future work with the hydroponic fish-garden. This
