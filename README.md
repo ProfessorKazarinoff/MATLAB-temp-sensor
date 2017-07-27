@@ -19,9 +19,18 @@ the garden and subsequently the conditions
 of said garden.
 
 ## Hardware Setup
-
-![Alt-text](/doc/temp_sensor1.jpg "Alt-title")
-
+### Bill of Materials
+|component|vendor|
+|---|---|
+|Arduino|[SparkFun RedBoard - Programmed with Arduino](https://www.sparkfun.com/products/13975)|
+|Photo Sensor|[Mini Photocell](https://www.sparkfun.com/products/9088)|
+|330 Ω resistor|[Resistor 330 Ohm 1/6th Watt PTH](https://www.sparkfun.com/products/8377)|
+|10 kΩ resistor|[Resistor 10k Ohm 1/6th Watt PTH](https://www.sparkfun.com/products/8374)|
+|Red LED|[LED - Basic Red 5mm](https://www.sparkfun.com/products/9590)|
+|Breadboard|[Breadboard - Self-Adhesive (White)](https://www.sparkfun.com/products/12002)|
+|Jumper wires|[Jumper Wires Premium 6" M/M Pack of 10](https://www.sparkfun.com/products/8431 )|
+|Mini-B USB cable|[SparkFun USB Mini-B Cable - 6 Foot](https://www.sparkfun.com/products/11301)|
+### Connected Hardware
 Arduino is connected to the computer via a mini-USB (connector shown at right of
 photo). The temperature sensor is connected to the Arduino through a breadboard that
 incorporates a pull-up resistor to keep input voltage up. Connections as follows: red wire of
@@ -29,6 +38,7 @@ sensor is input, green is signal, black is ground, these are connected to three 
 the breadboard. The red, white and black jumpers connect the breadboard to the Arduino with
 the following ports, 3.3V, Digital-7 and GND (respectively). The resistor is placed between the
 signal wire and input for the Arduino.
+![Alt-text](/doc/temp_sensor1.jpg "Alt-title")
 
 ## Arduino Code
 
