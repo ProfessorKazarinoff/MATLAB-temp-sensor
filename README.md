@@ -29,8 +29,8 @@ of said garden.
 |Jumper wires|[Jumper Wires Premium 6" M/M Pack of 10](https://www.sparkfun.com/products/8431 )|
 |Mini-B USB cable|[SparkFun USB Mini-B Cable - 6 Foot](https://www.sparkfun.com/products/11301)|
 ### Fritzing Diagram
-![Alt-text](/doc/fritzing_temp_sensor.pnglt-title")
-=## Connected Hardware
+![Alt-text](/doc/fritzing_temp_sensor_redboard.png "Alt-title")
+### Connected Hardware
 Arduino is connected to the computer via a mini-USB (connector shown at right of
 photo). The temperature sensor is connected to the Arduino through a breadboard that
 incorporates a pull-up resistor to keep input voltage up. Connections as follows: red wire of
