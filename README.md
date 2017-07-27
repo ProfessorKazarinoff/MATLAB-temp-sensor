@@ -23,10 +23,8 @@ of said garden.
 |component|vendor|
 |---|---|
 |Arduino|[SparkFun RedBoard - Programmed with Arduino](https://www.sparkfun.com/products/13975)|
-|Photo Sensor|[Mini Photocell](https://www.sparkfun.com/products/9088)|
-|330 Ω resistor|[Resistor 330 Ohm 1/6th Watt PTH](https://www.sparkfun.com/products/8377)|
+|Temperature Sensor|[10K Precision Epoxy Thermistor - 3950 NTC](https://www.adafruit.com/product/372)|
 |10 kΩ resistor|[Resistor 10k Ohm 1/6th Watt PTH](https://www.sparkfun.com/products/8374)|
-|Red LED|[LED - Basic Red 5mm](https://www.sparkfun.com/products/9590)|
 |Breadboard|[Breadboard - Self-Adhesive (White)](https://www.sparkfun.com/products/12002)|
 |Jumper wires|[Jumper Wires Premium 6" M/M Pack of 10](https://www.sparkfun.com/products/8431 )|
 |Mini-B USB cable|[SparkFun USB Mini-B Cable - 6 Foot](https://www.sparkfun.com/products/11301)|
