@@ -19,4 +19,5 @@ void loop() {
   tempC = tempK - 273.15;
   tempF = ((tempC * 9.0) / 5.0 + 32.0);
   Serial.println(tempF);
+  delay(100); // wait 100 microsceonds or repeat 10x per second (change to modify sampling rate)
 }
