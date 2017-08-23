@@ -63,3 +63,6 @@ turn on a heater until the water reaches a certain temperature. If the temperatu
 same program could be used to turn off said heater. Long term monitoring could be used to find
 trends that correlated to any number of factors, plant cycle, fish health, plant health, etc. Inconjunction with software from other groups this garden could be almost fully automated and
 controlled remotely via a wi-fi connection.
+
+## License
+GNU General Public License v3.0
