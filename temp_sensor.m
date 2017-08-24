@@ -52,6 +52,8 @@ legend('Temperature');                  % Legend of data series
 ylim([0 200]);                          % Axis limit
 grid;                                   % Grid is turned on
 
-%% Close The Arduino Serial Object
-
+%% Close the serial port
 fclose(arduino);
+delete(arduino)
+clear arduino;
+disp('Serial Port is closed')
