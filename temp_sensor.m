@@ -25,9 +25,9 @@ ax = gca;                % gca - get current axis. Allows axis to be modified
 ax.YGrid = 'on';         % Adds a grid to the plot
 ax.YLim = [0 200];       % This is the serial output range, so the y-axis range
 
-Num_data = input('Enter the desired number of data points: '); % User-defined value for total data points plotted
-x = linspace(1,Num_data,Num_data);                       % x can be changed to alter the number of data points 
-startTime = datetime('now');                             % Saves the current time
+Num_data = input('Enter the desired number of data points: ');  % User-defined value for total data points plotted
+x = linspace(1,Num_data,Num_data);                              % x can be changed to alter the number of data points 
+startTime = datetime('now');                                    % Saves the current time
 
 %% Collect Serial Data From The Arduino
 
@@ -58,25 +58,20 @@ ylim([0 200]);                          % Defines the axis limits
 grid;                                   % Turns on grid
 
 %% Close The Arduino Serial Object
-fclose(arduino);                    % Closes the serial channel
+fclose(arduino);                        % Closes the serial channel
 clear(arduino);
 delete arduino;
+disp('Serial Port is closed')
 
 %% Plots a Nice Graph
 
-figure;                           % Inserts new figure
-t2 = linspace(1,15,500);          % Creates new variable for time that looks better for graphing
-Z = plot(t2, serial_data);        % Plots the serial_data from above vs the new time variable
-% Additions to the graph for reference and identification
+figure;                                 % Inserts new figure
+t2 = linspace(1,15,500);                % Creates new variable for time that looks better for graphing
+Z = plot(t2, serial_data);              % Plots the serial_data from above vs the new time variable
+                                        % Additions to the graph for reference and identification
 xlabel('Time (Seconds)');               % x-axis label
 ylabel('Temperature (Fahrenheit)');     % y-axis label
 title('Temperature vs. Time');          % Graph title
 legend('Temperature');                  % Legend of data series
 ylim([0 200]);                          % Axis limit
 grid;                                   % Grid is turned on
-
-%% Close the serial port
-fclose(arduino);
-delete(arduino)
-clear arduino;
-disp('Serial Port is closed')
