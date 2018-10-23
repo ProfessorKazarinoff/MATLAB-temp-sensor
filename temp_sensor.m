@@ -1,6 +1,7 @@
 %% Using MATLAB to read serial output from an Arduino in real time
+% created by a student group in ENGR114 at Portland Community College
 
-%% MATLAB Coding Inital Commands
+%% MATLAB Environment setup
 
 clc;                        % Clears the command line                      
 clear;                      % Erases all variables in the workspace
@@ -13,7 +14,7 @@ delete(instrfindall);       % Clears any existing serial ports
 % and right click: FT231X USB UART, select Properties and then look under
 % Hardware Tab
 
-% Change 'COM4' to whichever port the arduino is connected to.
+% Change 'COM4' to whichever port the Arduino is connected to.
 arduino = serial('COM4','BaudRate',9600);    % Creates a serial connection through COM4
 fopen(arduino);                              % Opens the serial to transmission
 
