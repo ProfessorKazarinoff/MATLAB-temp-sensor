@@ -2,24 +2,25 @@
 A student project for ENGR114 at Portland Community College. Uses MATLAB to read a temperature sensor connected to an Arudino over serial.
 
 ## Problem Statement
-For our final lab our group was
+For our final lab, our group was
 tasked with setting up a temperature sensor
 for the hydroponic fish tank-garden shown
 to the right. This sensor will be used to
 monitor the water supply for the garden.
-Using Arduino and MATLAB the water
+Using an Arduino and MATLAB, the water
 temperature will be recorded over a set
 amount of time with the temperature
 displayed at regular intervals. A plot of the
 temperature as a function of time will also
 be generated for a visual representation of
-the temperature. This will be used to order
+the temperature vs. time. The temperature measurement setup will be used
 to monitor the temperature of the water in
-the garden and subsequently the conditions
-of said garden.
+the hydroponic fish tank-garden.
 
 ## Hardware Setup
+
 ### Bill of Materials
+
 |component|vendor|
 |---|---|
 |Arduino|[SparkFun RedBoard - Programmed with Arduino](https://www.sparkfun.com/products/13975)|
@@ -28,9 +29,13 @@ of said garden.
 |Breadboard|[Breadboard - Self-Adhesive (White)](https://www.sparkfun.com/products/12002)|
 |Jumper wires|[Jumper Wires Premium 6" M/M Pack of 10](https://www.sparkfun.com/products/8431 )|
 |Mini-B USB cable|[SparkFun USB Mini-B Cable - 6 Foot](https://www.sparkfun.com/products/11301)|
+
 ### Fritzing Diagram
+
 ![Alt-text](/doc/fritzing_temp_sensor_redboard.png "Alt-title")
+
 ### Connected Hardware
+
 Arduino is connected to the computer via a mini-USB (connector shown at right of
 photo). The temperature sensor is connected to the Arduino through a breadboard that
 incorporates a pull-up resistor to keep input voltage up. Connections as follows: red wire of
@@ -56,13 +61,13 @@ The plot above is a sample output of our code using the temperature sensor and A
 board. Time is on the x-axis while temperature in degrees Fahrenheit is on the y-axis.
 
 ## Future Work
-This is a great starting point for future work with the hydroponic fish-garden. This
+
+This is a great starting point for future work with the hydroponic fish-garden. The MATLAB
 program could be used to get baseline values for the temperature and use those values for
-further changes to the conditions. If the temperature is too low a program could be written to
-turn on a heater until the water reaches a certain temperature. If the temperature is too high the
-same program could be used to turn off said heater. Long term monitoring could be used to find
-trends that correlated to any number of factors, plant cycle, fish health, plant health, etc. Inconjunction with software from other groups this garden could be almost fully automated and
-controlled remotely via a wi-fi connection.
+further changes to the conditions. If the temperature is too low, a program could be written to
+turn on a heater until the water reaches a certain temperature. If the temperature is too high, the
+same program could be used to turn off the heater. Long term monitoring could be used to find
+trends that correlated to any number of factors, plant cycle, fish health, plant health, etc. Inconjunction with software from other groups. this garden could be almost fully automated and controlled remotely via a wi-fi connection.
 
 ## License
 GNU General Public License v3.0
